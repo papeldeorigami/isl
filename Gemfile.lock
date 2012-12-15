@@ -26,7 +26,6 @@ GEM
     rake (0.8.7)
     searchlogic (2.4.27)
       activerecord (>= 2.0.0)
-    test-unit (2.5.3)
 
 PLATFORMS
   ruby
@@ -39,4 +38,3 @@ DEPENDENCIES
   rails (= 2.3.5)
   rake (= 0.8.7)
   searchlogic (= 2.4.27)
-  test-unit
