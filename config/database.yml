@@ -1,10 +1,16 @@
+#development:
+#  adapter: postgresql
+#  host: localhost
+#  username: user
+#  database: app-dev
+
 development:
       host: localhost
-      adapter: mysql
+      adapter: postgresql
       database: fedena_ultimate
-      port: 3306
-      username: fedena
-      password: fedenapassword
+#      port: 3306
+      username: postgres
+      password: postgres
 
 test: &test
       host: localhost
@@ -16,10 +22,10 @@ test: &test
 
 production:
       host: localhost
-      adapter: mysql
+      adapter: postgresql
       database: fedena_ultimate
       port: 3306
-      username: fedena
-      password: fedenapassword
+      username: postgres
+      password: postgres
 cucumber:
   <<: *test
