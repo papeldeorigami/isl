@@ -8,3 +8,6 @@ gem 'searchlogic','2.4.27'
 gem 'rake','0.8.7'
 
 gem 'activerecord-postgresql-adapter'
+
+
+gem 'test-unit'
