@@ -9,3 +9,6 @@ gem 'rake','0.8.7'
 
 gem 'activerecord-postgresql-adapter'
 
+group :development do
+  gem 'taps', :require => false # has an sqlite dependency, which heroku hates
+end
