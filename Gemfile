@@ -10,4 +10,4 @@ gem 'rake','0.8.7'
 gem 'activerecord-postgresql-adapter'
 
 
-gem 'test-unit'
+gem 'test-unit','1.2.3'
