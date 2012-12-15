@@ -1,3 +1,10 @@
+#About this fork
+
+This fork of Fedena has being initiated to suit the needs of a local institute, called Instituto Sarah Lins (in Brazil).
+These have being the main tasks performed to the date of this writing (Dec 2012):
+- Integrated a portuguese translation
+- Switched to PostgreSQL to deploy on Heroku
+
 #Fedena : Open source school management system
 
 Project Fedena is the open source school management system based on Ruby on Rails. It is developed by a team of developers at Foradian Technologies. The project was made open source by Foradian, and is now maintained by the open source community. Fedena is the ideal solution for schools and campuses that want an easy means to manage all campus records.
