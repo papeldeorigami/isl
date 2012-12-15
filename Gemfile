@@ -6,8 +6,8 @@ gem 'declarative_authorization','0.5.1'
 gem 'searchlogic','2.4.27'
 gem 'mysql','2.8.1'
 gem 'rake','0.8.7'
-gem 'test-unit',' 1.2.3' 
 
 group :test, :development do
+  gem 'test-unit',' 1.2.3' 
   gem "hoe"
 end
