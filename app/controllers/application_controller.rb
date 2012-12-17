@@ -196,7 +196,7 @@ class ApplicationController < ActionController::Base
   def protect_other_employee_data
     if current_user.employee?
       employee = current_user.employee_record
-      #    pri = Privilege.find(:all,:select => "privilege_id",:conditions=> 'privileges_users.user_id = ' + current_user.id.to_s, :joins =>'INNER JOIN `privileges_users` ON `privileges`.id = `privileges_users`.privilege_id' )
+      #    pri = Privilege.find(:all,:select => "privilege_id",:conditions=> 'privileges_users.user_id = ' + current_user.id.to_s, :joins =>'INNER JOIN privileges_users ON privileges.id = privileges_users.privilege_id' )
       #    privilege =[]
       #    pri.each do |p|
       #      privilege.push p.privilege_id
